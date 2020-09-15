@@ -18,6 +18,6 @@ $replace = str_replace($badword ,"***",$text);
     <body>
         <p><?php echo $text; ?></p>
         <p><?php echo 'caratteri utilizzati : '.$counter; ?></p>
-        <p> <?php echo $replace; ?> </p>
+        <p> <?php echo $replace; ?></p>
     </body>
 </html>
